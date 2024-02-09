@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <NativeReference Include="Binding.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>Foundation UIKit</Frameworks>
+      <SmartLink>True</SmartLink>
+    </NativeReference>    
+  </ItemGroup>
+
+  <ItemGroup>
+    <NativeReference Include="App.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>Foundation UIKit</Frameworks>
+      <SmartLink>True</SmartLink>
+    </NativeReference>    
+  </ItemGroup>
+
+  <ItemGroup>
+    <NativeReference Include="Flutter.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>Foundation UIKit</Frameworks>
+      <SmartLink>True</SmartLink>
+    </NativeReference>    
+  </ItemGroup>
+</Project>

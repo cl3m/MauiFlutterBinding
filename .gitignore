@@ -1,0 +1,9 @@
+.vs
+Android.Binding/bin
+Android.Binding/obj
+Android.Native/.idea
+Android.Native/binding/xamarin
+iOS.Binding/bin
+iOS.Binding/obj
+MauiDemoApp/bin
+MauiDemoApp/obj

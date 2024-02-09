@@ -1,0 +1,11 @@
+framework module Binding {
+  umbrella header "Binding.h"
+  export *
+
+  module * { export * }
+}
+
+module Binding.Swift {
+  header "Binding-Swift.h"
+  requires objc
+}

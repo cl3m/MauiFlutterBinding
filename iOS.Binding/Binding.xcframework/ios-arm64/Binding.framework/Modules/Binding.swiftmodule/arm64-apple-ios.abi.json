@@ -1,0 +1,266 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "Binding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Binding"
+      },
+      {
+        "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "Binding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Binding"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftBinding",
+        "printedName": "SwiftBinding",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "async",
+            "printedName": "async(parameters:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Binding@objc(cs)Binding(im)asyncWithParameters:callback:",
+            "mangledName": "$s7Binding05SwiftA0C5async10parameters8callbackySaySSG_ySSctF",
+            "moduleName": "Binding",
+            "objc_name": "asyncWithParameters:callback:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFlutterViewController",
+            "printedName": "getFlutterViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Binding@objc(cs)Binding(im)getFlutterViewController",
+            "mangledName": "$s7Binding05SwiftA0C24getFlutterViewControllerSo06UIViewF0CyF",
+            "moduleName": "Binding",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftBinding",
+                "printedName": "Binding.SwiftBinding",
+                "usr": "c:@M@Binding@objc(cs)Binding"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Binding@objc(cs)Binding(im)init",
+            "mangledName": "$s7Binding05SwiftA0CACycfc",
+            "moduleName": "Binding",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Binding@objc(cs)Binding",
+        "mangledName": "$s7Binding05SwiftA0C",
+        "moduleName": "Binding",
+        "objc_name": "Binding",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/clem\/swiss4\/MauiFlutterBinding\/iOS.Native\/Binding\/Binding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 370,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/clem\/swiss4\/MauiFlutterBinding\/iOS.Native\/Binding\/Binding.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 35,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/clem\/swiss4\/MauiFlutterBinding\/iOS.Native\/Binding\/Binding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/clem\/swiss4\/MauiFlutterBinding\/iOS.Native\/Binding\/Binding.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/clem\/swiss4\/MauiFlutterBinding\/iOS.Native\/Binding\/Binding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/clem\/swiss4\/MauiFlutterBinding\/iOS.Native\/Binding\/Binding.swift",
+      "kind": "StringLiteral",
+      "offset": 436,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/clem\/swiss4\/MauiFlutterBinding\/iOS.Native\/Binding\/Binding.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 19,
+      "value": "\"my flutter engine\""
+    }
+  ]
+}
