@@ -29,9 +29,18 @@ Run *build.sh* in Android.Native to rebuild/modify the binding framework. You ca
 
 Run *build.sh* in iOS.Native to rebuild/modify the binding framework. Sharpie does make an error but the file is generated correctly. You can open the binding xcodeproj with xcode to test. Copy the xcframework that are neaded to iOS.Binding. 
 
+### Flutter build
+Read the doc to embedded flutter at [Add Flutter to an existing app](https://docs.flutter.dev/add-to-app). The command are :
+
+```
+flutter build ios-framework
+flutter build aar
+```
+
 ## More
 
 * [MauiPDFViewerBinding](https://github.com/cl3m/MauiPDFViewerBinding)
+* [Add Flutter to an existing app](https://docs.flutter.dev/add-to-app)
 * [Build MAUI control for AutoNavi Map](https://github.com/kinfey/AMapMAUIControls)
 * [Lottie Maui](https://github.com/Csaba8472/LottieMaui)
 * [Xamarin.Binding.Helper](https://github.com/Redth/Xamarin.Binding.Helpers)
