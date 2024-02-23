@@ -1,0 +1,38 @@
+apply plugin: 'java'
+
+repositories {
+   google()
+   mavenCentral()
+   String storageUrl = System.env.FLUTTER_STORAGE_BASE_URL ?: "https://storage.googleapis.com/"
+   maven {
+      url 'build/host/outputs/repo'
+   }
+   maven {
+      url "$storageUrl/download.flutter.io"
+   }
+}
+
+dependencies {
+   implementation 'com.example.flutter_app:flutter_release:1.0'
+}
+
+configurations.implementation.canBeResolved = true
+
+task deleteDependencies(type: Delete) {
+    delete "build/android/"
+}
+
+task copyDependencies(type: Copy) {
+    dependsOn 'deleteDependencies'
+    from configurations.implementation
+    into "build/android"
+    doLast {
+        configurations.implementation.resolvedConfiguration.resolvedArtifacts.sort({ artsort -> "${artsort.moduleVersion.id.group}.${artsort.moduleVersion.id.name}" })
+            .each { art ->
+               // Rename to include the maven group id so it's more obvious
+               def prename = file("build/android/${art.moduleVersion.id.name}-${art.moduleVersion.id.version}.${art.extension}")
+               def newname = file("build/android/${art.moduleVersion.id.group}.${art.moduleVersion.id.name}-${art.moduleVersion.id.version}.${art.extension}")
+               prename.renameTo(newname)
+            }
+    }
+}
