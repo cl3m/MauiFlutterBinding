@@ -37,6 +37,9 @@ flutter build ios-framework
 flutter build aar
 ```
 
+The release App.xcframework does not work on the simulator. To make it work replace the ios-arm64\_x86\_64-simulator part from the debug build. You can do it using [flutter_app/build.sh](https://github.com/cl3m/MauiFlutterBinding/blob/master/flutter_app/build.sh).
+
+
 ## More
 
 * [MauiPDFViewerBinding](https://github.com/cl3m/MauiPDFViewerBinding)

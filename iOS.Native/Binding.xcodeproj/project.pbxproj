@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -53,8 +53,8 @@
 		06B75F162821688800CD96B2 /* Binding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Binding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B75F192821688800CD96B2 /* Binding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Binding.h; sourceTree = "<group>"; };
 		06B75F2528216A8D00CD96B2 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
-		753EBBD12B3DB99F005FB8BB /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../flutter_app/build/ios/framework/Debug/Flutter.xcframework; sourceTree = "<group>"; };
-		753EBBD22B3DB99F005FB8BB /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../flutter_app/build/ios/framework/Debug/App.xcframework; sourceTree = "<group>"; };
+		753EBBD12B3DB99F005FB8BB /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../flutter_app/build/ios/framework/Release/Flutter.xcframework; sourceTree = "<group>"; };
+		753EBBD22B3DB99F005FB8BB /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../flutter_app/build/ios/framework/Release/App.xcframework; sourceTree = "<group>"; };
 		75F19163290744CA00BD90E9 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F19165290744CA00BD90E9 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		75F19167290744CA00BD90E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
