@@ -8,4 +8,5 @@
   -->
 
   <!-- <remove-node path="/api/package[@name='com.airbnb.lottie']" /> -->
+<remove-node path="/api/package[@name='io.flutter.embedding.android']" />
 </metadata>

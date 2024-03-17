@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <LibraryProjectZip Include="jars\*" />
+    <LibraryProjectZip Include="aars\*" />    
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidLibrary Include="jars\*" />    
   </ItemGroup>
 </Project>
